@@ -1,0 +1,37 @@
+.choreUl{
+  list-style: none;
+  padding: 10px 5px;
+}
+
+.choreUl li{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.choreUl li span{
+  display: flex;
+  gap: .5em;
+}
+
+.choreUl li button{
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.choreUl li span input{
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fcfcfc;
+  font-size: 20px;
+}
+
+/* .choreLiInput{
+} */
+
+.choreLiInput[data-chore-state="true"]{
+  text-decoration: line-through;
+}

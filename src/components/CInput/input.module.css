@@ -1,0 +1,27 @@
+.choreForm{
+  display: flex;
+  flex-direction: column;
+  /* align */
+  padding: 5px;
+}
+
+.choreForm input{
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.4em;
+  color: #eeeeee;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.choreForm input::placeholder{
+  color: #bbbbbb;
+}
+
+.choreForm button{
+  cursor: pointer;
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+}
