@@ -22,6 +22,7 @@ body{
   align-items: center;
   justify-content: center;
   background-image: url("./assets/bg.jpg");
+  background-color: #222222;
   background-position: center;
   background-size: cover;
 }
