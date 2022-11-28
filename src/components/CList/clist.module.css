@@ -1,27 +1,27 @@
-.choreUl{
+.choreUl {
   list-style: none;
   padding: 10px 5px;
 }
 
-.choreUl li{
+.choreUl li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
-.choreUl li span{
+.choreUl li span {
   display: flex;
-  gap: .5em;
+  gap: 0.5em;
 }
 
-.choreUl li button{
+.choreUl li button {
   border: none;
   border-radius: 5px;
   padding: 0 5px;
   cursor: pointer;
 }
 
-.choreUl li span input{
+.choreUl li span input {
   border: none;
   outline: none;
   background: transparent;
@@ -29,9 +29,10 @@
   font-size: 20px;
 }
 
-/* .choreLiInput{
-} */
+.choreUl li span input[type="text"] {
+  width: 100%;
+}
 
-.choreLiInput[data-chore-state="true"]{
+.choreLiInput[data-chore-state="true"] {
   text-decoration: line-through;
 }

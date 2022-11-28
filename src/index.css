@@ -37,8 +37,7 @@ main{
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   aspect-ratio: 2/2;
-  width: 60vmin;
-  height: 80vmin;
+  width: 90vmin;
 }
 
 main header h1{
