@@ -20,7 +20,7 @@ function Toast(){
 }
 
 type ToastProviderProps = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 function Toaster({children}:ToastProviderProps){
